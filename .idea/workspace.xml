@@ -24,9 +24,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fcb4107-f2f3-4ac0-841b-1ef04ac1e1b1" name="Default Changelist" comment="hasta el video 93">
-      <change afterPath="$PROJECT_DIR$/server/rutas/usuario.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+    <list default="true" id="3fcb4107-f2f3-4ac0-841b-1ef04ac1e1b1" name="Default Changelist" comment="hasta el video 108">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/config/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/config/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599483993724</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="hasta el video 108">
+      <created>1599506854354</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599506854354</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,13 +104,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hasta el video 93" />
-    <option name="LAST_COMMIT_MESSAGE" value="hasta el video 93" />
+    <MESSAGE value="hasta el video 108" />
+    <option name="LAST_COMMIT_MESSAGE" value="hasta el video 108" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1599484006669">
+    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1599506871187">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1294.741/1366.0.1600.900@72.27.1294.741" timestamp="1599484006669" />
+    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1294.741/1366.0.1600.900@72.27.1294.741" timestamp="1599506871187" />
     <state x="409" y="136" width="620" height="522" key="find.popup" timestamp="1599486335440">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
