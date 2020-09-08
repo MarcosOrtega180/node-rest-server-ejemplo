@@ -9,8 +9,16 @@ app.use(bodyParser.urlencoded({extended: false}))
 
 //parse aplication/json
 app.use(bodyParser.json())
-app.use(require('./routes/usuario'));
-mongoose.connect(process.env.URLDB, {useNewUrlParser: true, useCreateIndex:true, useUnifiedTopology: true}, (err, res) => {
+
+// app.use(require('./routes/usuario'));
+//reemplazamos el codigo anterior por el siguiente para importar todoas las rutas de una vez
+//configuración global de rutas
+app.use(require('./routes/index'));
+mongoose.connect(process.env.URLDB, {
+    useNewUrlParser: true,
+    useCreateIndex: true,
+    useUnifiedTopology: true
+}, (err, res) => {
     if (err) throw err;
     console.log('Base de datos online');
 })

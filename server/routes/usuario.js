@@ -2,9 +2,15 @@ const express = require('express');
 const Usuario = require('../models/usuario');
 const bcrypt = require('bcrypt');
 const _ = require('underscore');
+const {verificaToken, verificaAdmin_Role} = require('../middlewares/authenticacion')
 
 const app = express();
-app.get('/usuario', function (req, res) {
+app.get('/usuario', verificaToken, function (req, res) {
+    // return res.json({//esto es solo para ver al usuario que está dentro del token
+    //     usuario: req.usuario,
+    //     nombre: req.usuario.nombre,
+    //     email: req.usuario.email,
+    // });
     let desde = req.query.desde || 0;
     desde = Number(desde);
     let limite = req.query.limite || 5;
@@ -20,7 +26,7 @@ app.get('/usuario', function (req, res) {
                     err
                 });
             }
-            Usuario.count({estado: true}, (err, conteo) => {
+            Usuario.estimatedDocumentCount({estado: true}, (err, conteo) => {
                 res.json({
                     ok: true,
                     usuarios,
@@ -31,7 +37,7 @@ app.get('/usuario', function (req, res) {
         });
 });
 
-app.post('/usuario', function (req, res) {
+app.post('/usuario', [verificaToken, verificaAdmin_Role], function (req, res) {
     let body = req.body;
     //recivimos los parámetros enviados desde la vista
     let usuario = new Usuario({
@@ -68,7 +74,7 @@ app.post('/usuario', function (req, res) {
 })
 
 //para actualizaciones
-app.put('/usuario/:id', function (req, res) {
+app.put('/usuario/:id', [verificaToken,verificaAdmin_Role], function (req, res) {
     let id = req.params.id;
     let body = _.pick(req.body, ['nombre', 'email', 'img', 'role', 'estado']);//esto me permite recuperar solo las propiedades que quiero de un objeto
 
@@ -85,7 +91,7 @@ app.put('/usuario/:id', function (req, res) {
         });
     });
 });
-app.delete('/usuario/:id', function (req, res) {
+app.delete('/usuario/:id', [verificaToken,verificaAdmin_Role], function (req, res) {
     // let id = req.params.id;
     // eliminación física
     // Usuario.findByIdAndRemove(id, (err, usuarioBorrado) => {

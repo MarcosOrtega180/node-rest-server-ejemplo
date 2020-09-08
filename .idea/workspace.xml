@@ -25,8 +25,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fcb4107-f2f3-4ac0-841b-1ef04ac1e1b1" name="Default Changelist" comment="hasta el video 108">
+      <change afterPath="$PROJECT_DIR$/server/middlewares/authenticacion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/routes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/routes/login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/config/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/config/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/usuario.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/usuario.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +75,7 @@
       <updated>1599234451281</updated>
       <workItem from="1599234452360" duration="13075000" />
       <workItem from="1599483017985" duration="17275000" />
+      <workItem from="1599569175680" duration="10960000" />
     </task>
     <task id="LOCAL-00001" summary="hasta el video 93">
       <created>1599483993723</created>
@@ -111,10 +119,14 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1294.741/1366.0.1600.900@72.27.1294.741" timestamp="1599509722674" />
-    <state x="409" y="136" width="620" height="522" key="find.popup" timestamp="1599486335440">
+    <state x="409" y="136" width="620" height="522" key="find.popup" timestamp="1599586695424">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="409" y="136" width="620" height="522" key="find.popup/72.27.1294.741/1366.0.1600.900@72.27.1294.741" timestamp="1599486335440" />
+    <state x="409" y="136" width="620" height="522" key="find.popup/72.27.1294.741/1366.0.1600.900@72.27.1294.741" timestamp="1599586695424" />
     <state x="409" y="136" width="620" height="522" key="find.popup/72.27.1294.741@72.27.1294.741" timestamp="1599252075108" />
+    <state x="382" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1599514099413">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="382" y="89" width="672" height="678" key="search.everywhere.popup/72.27.1294.741/1366.0.1600.900@72.27.1294.741" timestamp="1599514099413" />
   </component>
 </project>
