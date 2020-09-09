@@ -25,8 +25,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fcb4107-f2f3-4ac0-841b-1ef04ac1e1b1" name="Default Changelist" comment="hasta el video 108">
+      <change afterPath="$PROJECT_DIR$/server/models/categoria.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/rutas/usuario.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/rutas/usuario.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +39,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -56,7 +59,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.12.55" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/server/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/server/models" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
@@ -64,6 +67,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server/models" />
       <recent name="$PROJECT_DIR$/server/public" />
     </key>
   </component>
@@ -78,7 +82,8 @@
       <workItem from="1599234452360" duration="13075000" />
       <workItem from="1599483017985" duration="17275000" />
       <workItem from="1599569175680" duration="24328000" />
-      <workItem from="1599653950635" duration="9154000" />
+      <workItem from="1599653950635" duration="12963000" />
+      <workItem from="1599671530710" duration="15405000" />
     </task>
     <task id="LOCAL-00001" summary="hasta el video 93">
       <created>1599483993723</created>
@@ -122,18 +127,28 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="502" y="155" width="424" height="491" key="FileChooserDialogImpl/72.27.1294.741/1366.0.1600.900@72.27.1294.741" timestamp="1599593230860" />
+    <state x="454" y="81" width="519" height="640" key="RollbackChangesDialog" timestamp="1599685366556">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="454" y="81" width="519" height="640" key="RollbackChangesDialog/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1599685366556" />
     <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1599509722674">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1294.741/1366.0.1600.900@72.27.1294.741" timestamp="1599509722674" />
-    <state x="409" y="136" width="620" height="522" key="find.popup" timestamp="1599592290534">
+    <state x="500" y="312" width="427" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599664264455">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
+    <state x="500" y="312" width="427" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1599664264455" />
+    <state x="409" y="136" width="620" height="580" key="find.popup" timestamp="1599686838544">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="409" y="136" width="620" height="580" key="find.popup/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1599686838544" />
     <state x="409" y="136" width="620" height="522" key="find.popup/72.27.1294.741/1366.0.1600.900@72.27.1294.741" timestamp="1599592290534" />
     <state x="409" y="136" width="620" height="522" key="find.popup/72.27.1294.741@72.27.1294.741" timestamp="1599252075108" />
-    <state x="382" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1599514099413">
+    <state x="382" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1599666058010">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
+    <state x="382" y="89" width="672" height="678" key="search.everywhere.popup/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1599666058010" />
     <state x="382" y="89" width="672" height="678" key="search.everywhere.popup/72.27.1294.741/1366.0.1600.900@72.27.1294.741" timestamp="1599514099413" />
   </component>
 </project>

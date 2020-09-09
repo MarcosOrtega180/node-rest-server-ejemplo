@@ -1,13 +1,12 @@
 const express = require('express')
 
 const app = express();
-app.get('/usuario', function (req, res) {
-    res.json('get usuario')
+app.get('/usuarios', function (req, res) {
+    res.json('get usuarios')
 })
 
-app.post('/usuario', function (req, res) {
+app.post('/usuarios', function (req, res) {
     let body = req.body;
-    console.log('este es el body', body);
     if(body.nombre===undefined){
         res.status(400).json({
             ok:false,
@@ -19,15 +18,15 @@ app.post('/usuario', function (req, res) {
         })
     }
 })
-app.put('/usuario/:id', function (req, res) {
+app.put('/usuarios/:id', function (req, res) {
     let id = req.params.id;
 
     res.json({
         id:id
     });
 })
-app.delete('/usuario', function (req, res) {
-    res.json('delete usuario')
+app.delete('/usuarios', function (req, res) {
+    res.json('delete usuarios')
 })
 
 module.exports = app;
