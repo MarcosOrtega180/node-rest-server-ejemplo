@@ -8,9 +8,9 @@ let app = express();
 // Mostrar todas las categorías
 // ============================================
 app.get('/categoria', verificaToken, (req, res) => {
-
     Categoria.find()
         .sort('descripcion')
+        .populate('usuario')
         .exec({}, (err, categorias) => {
         if (err) {
             return res.status(400).json({
@@ -63,11 +63,12 @@ app.get('/categoria/:id', verificaToken, ((req, res) => {
 app.post('/categoria', verificaToken, ((req, res) => {
     // inserta una nueva cateogría y regresa la nueva cateogría
     let body = req.body;
-
+    console.log(req.usuario);
     let categoria = new Categoria({
         descripcion: body.descripcion,
-        usuarios: req.usuario._id
+        usuario: req.usuario._id
     });
+    console.log(categoria);
     categoria.save((err, categoriaDB) => {
         if (err) {
             return res.status(500).json({

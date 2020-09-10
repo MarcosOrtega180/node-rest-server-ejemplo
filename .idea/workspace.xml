@@ -24,12 +24,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fcb4107-f2f3-4ac0-841b-1ef04ac1e1b1" name="Default Changelist" comment="hasta el video 108">
-      <change afterPath="$PROJECT_DIR$/server/models/categoria.js" afterDir="false" />
+    <list default="true" id="3fcb4107-f2f3-4ac0-841b-1ef04ac1e1b1" name="Default Changelist" comment="hasta el video 146">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/rutas/usuario.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/rutas/usuario.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/categorias.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/categorias.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/producto.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/producto.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +81,8 @@
       <workItem from="1599483017985" duration="17275000" />
       <workItem from="1599569175680" duration="24328000" />
       <workItem from="1599653950635" duration="12963000" />
-      <workItem from="1599671530710" duration="15405000" />
+      <workItem from="1599671530710" duration="16717000" />
+      <workItem from="1599740680133" duration="9333000" />
     </task>
     <task id="LOCAL-00001" summary="hasta el video 93">
       <created>1599483993723</created>
@@ -99,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599506854354</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="hasta el video 146">
+      <created>1599687123748</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599687123748</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,7 +126,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hasta el video 93" />
     <MESSAGE value="hasta el video 108" />
-    <option name="LAST_COMMIT_MESSAGE" value="hasta el video 108" />
+    <MESSAGE value="hasta el video 146" />
+    <option name="LAST_COMMIT_MESSAGE" value="hasta el video 146" />
   </component>
   <component name="WindowStateProjectService">
     <state x="502" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1599593230860">
@@ -131,18 +138,23 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="454" y="81" width="519" height="640" key="RollbackChangesDialog/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1599685366556" />
-    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1599509722674">
+    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1599687141806">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
+    <state x="314" y="133" key="Vcs.Push.Dialog.v2/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1599687141806" />
     <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1294.741/1366.0.1600.900@72.27.1294.741" timestamp="1599509722674" />
+    <state x="397" y="79" width="634" height="644" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599743477365">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="397" y="79" width="634" height="644" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1599743477365" />
     <state x="500" y="312" width="427" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599664264455">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="500" y="312" width="427" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1599664264455" />
-    <state x="409" y="136" width="620" height="580" key="find.popup" timestamp="1599686838544">
+    <state x="409" y="136" width="620" height="580" key="find.popup" timestamp="1599687678566">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="409" y="136" width="620" height="580" key="find.popup/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1599686838544" />
+    <state x="409" y="136" width="620" height="580" key="find.popup/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1599687678566" />
     <state x="409" y="136" width="620" height="522" key="find.popup/72.27.1294.741/1366.0.1600.900@72.27.1294.741" timestamp="1599592290534" />
     <state x="409" y="136" width="620" height="522" key="find.popup/72.27.1294.741@72.27.1294.741" timestamp="1599252075108" />
     <state x="382" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1599666058010">
