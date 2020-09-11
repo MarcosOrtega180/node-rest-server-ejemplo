@@ -25,9 +25,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fcb4107-f2f3-4ac0-841b-1ef04ac1e1b1" name="Default Changelist" comment="hasta el video 146">
+      <change afterPath="$PROJECT_DIR$/server/assets/no-image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/routes/imagenes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/routes/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/tmp-1-1599760388554" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/tmp-1-1599760543537" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/tmp-1-1599761028242" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/tmp-1-1599762272873" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/tmp-1-1599763543481" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/tmp-2-1599762219046" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/tmp-3-1599760986000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/tmp-4-1599761003703" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/productos/5f5a21f50f19191496d7ef27-362.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/usuarios/5f593ae128a0a93f82e133ca-991.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/categorias.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/categorias.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/producto.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/producto.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/middlewares/authenticacion.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/middlewares/authenticacion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/categoria.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/categoria.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/producto.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/producto.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +76,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
-    <property name="javascript.nodejs.core.library.typings.version" value="12.12.55" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/server/models" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.12.57" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/server/assets" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
@@ -65,6 +85,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server/assets" />
       <recent name="$PROJECT_DIR$/server/models" />
       <recent name="$PROJECT_DIR$/server/public" />
     </key>
@@ -82,7 +103,8 @@
       <workItem from="1599569175680" duration="24328000" />
       <workItem from="1599653950635" duration="12963000" />
       <workItem from="1599671530710" duration="16717000" />
-      <workItem from="1599740680133" duration="9333000" />
+      <workItem from="1599740680133" duration="26047000" />
+      <workItem from="1599826736777" duration="1624000" />
     </task>
     <task id="LOCAL-00001" summary="hasta el video 93">
       <created>1599483993723</created>
@@ -130,6 +152,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="hasta el video 146" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="398" y="199" width="678" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599828641830">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="398" y="199" width="678" height="403" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1599828641830" />
     <state x="502" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1599593230860">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
@@ -151,12 +177,16 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="500" y="312" width="427" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1599664264455" />
-    <state x="409" y="136" width="620" height="580" key="find.popup" timestamp="1599687678566">
+    <state x="409" y="136" width="620" height="580" key="find.popup" timestamp="1599765936344">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="409" y="136" width="620" height="580" key="find.popup/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1599687678566" />
+    <state x="409" y="136" width="620" height="580" key="find.popup/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1599765936344" />
     <state x="409" y="136" width="620" height="522" key="find.popup/72.27.1294.741/1366.0.1600.900@72.27.1294.741" timestamp="1599592290534" />
     <state x="409" y="136" width="620" height="522" key="find.popup/72.27.1294.741@72.27.1294.741" timestamp="1599252075108" />
+    <state x="383" y="174" key="run.anything.popup" timestamp="1599760436978">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="383" y="174" key="run.anything.popup/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1599760436978" />
     <state x="382" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1599666058010">
       <screen x="72" y="27" width="1294" height="741" />
     </state>

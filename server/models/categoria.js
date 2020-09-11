@@ -10,7 +10,7 @@ let categoriaSchema = new Schema({
         required: [true, 'El nombre es necesario']
     },
     usuario: {
-        type: String,
+        type: Schema.Types.ObjectId,
         required: [true, 'El correo es necesario']
     },
 
